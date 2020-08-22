@@ -1,4 +1,29 @@
 /*
 use ids for specific items like menu bars
-use classes for general perpose things like presetting border styles
+use classes for general perpose things like presetting
+    border styles ('fancy border')
 */
+body {
+    background-color:   white;
+    padding:            0px;
+    margin:             0px;
+}
+
+#header {
+    background-color:   #f7c0d0;
+    height:             200px;
+    padding:            0px;
+    margin:             0px;
+}
+
+#content {
+    background-color: white;
+    height: 200px;
+}
+
+#footer {
+    background-color: aliceblue;
+    height: 200px;
+    padding:            0px;
+    margin:             0px;
+}
